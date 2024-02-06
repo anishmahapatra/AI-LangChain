@@ -1,0 +1,13 @@
+prefix=/Users/anishmahapatra/Work/AI Projects/LangChain/venv
+exec_prefix=/Users/anishmahapatra/Work/AI Projects/LangChain/venv
+libdir=/Users/anishmahapatra/Work/AI Projects/LangChain/venv/lib
+sharedlibdir=/Users/anishmahapatra/Work/AI Projects/LangChain/venv/lib
+includedir=/Users/anishmahapatra/Work/AI Projects/LangChain/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
