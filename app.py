@@ -24,7 +24,7 @@ response = get_openai_response(input)
 
 submit=st.button("Ask!")
 
-# If the "Ask!"" button is clicked
+# If the "Ask!"" button is clicked, then run the following
 if submit:
     st.subheader("The response is")
     st.write(response)
